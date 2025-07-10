@@ -1,0 +1,8 @@
+[
+  {
+    "id": 0,
+    "question": "What is the capital of India?",
+    "options": ["Mumbai", "New Delhi", "Chennai", "Kolkata"],
+    "answer": "New Delhi"
+  }
+]

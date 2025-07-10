@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SSC Question App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <h1>AshAI &nbsp;&nbsp; </h1> 
+      <button id="theme-toggle" title="Toggle dark/light mode" style="font-size:1.2rem;padding:6px 14px;border-radius:8px;border:none;background:#e0e0e0;cursor:pointer;">🌙</button>
+    </div>
+    <div id="quiz-select-row">
+      <button id="start-btn">General Quiz</button>
+      <button id="quant-btn">Quantitative Aptitude</button>
+      <button id="comp-btn">Computer Knowledge</button>
+      <button id="eng-btn">English</button>
+      <button id="math-btn">Mathematics</button>
+      <button id="reason-btn">Reasoning</button>
+    </div>
+    <div id="quiz-container" style="display:none;">
+      <div id="progress-bar-container" style="margin-bottom:10px;">
+        <div id="progress-bar" style="height:10px;background:#e0e0e0;border-radius:5px;overflow:hidden;">
+          <div id="progress" style="height:100%;width:0;background:#4caf50;"></div>
+        </div>
+        <div id="question-count" style="margin-top:5px;text-align:right;font-size:14px;color:#555;"></div>
+      </div>
+      <div id="question-area"></div>
+      <div id="result-area"></div>
+      <button id="stop-btn" style="display:inline-block;">Stop Quiz</button>
+      <button id="next-btn" style="display:none;">Next</button>
+      <button id="restart-btn" style="display:none;">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
